@@ -5,13 +5,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="text-gray-600">
+<body class="text-gray-600 font-body">
     <div><!-- content wrapper -->
         <div>
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-                        <a href="/">Food Ninja</a>
+                        <a href="/" class="text-sm md:text-xl">Food Ninja</a>
                     </h1>
                 </div>
                 <ul>
@@ -40,9 +40,9 @@
             </nav>
         </div><!-- end nav -->
         <main class="px-16 py-6">
-            <div>
+            <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-primary">Log in</a>
-                <a href="#" class="text-primary">Sign up</a>
+                <a href="#" class="text-primary ml-2">Sign up</a>
             </div>
             <header>
                 <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
@@ -53,19 +53,21 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
                 <div class="mt-8">
                     <!-- cards go here -->
-                     <div>
+                    <div>
                         <img src="img/stew.jpg" alt="stew">
                         <div>
                             <span>5 Bean Chilli Stew</span>
                             <span>Recipe by Mario</span>
                         </div>
-                     </div>
+                    </div>
                 </div>
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular Recipes</h4>
                 <div class="mt-8">
                     <!-- cards go here -->
                 </div>
-                <div class="bg-secondary-100 text-secondary-200">Load More</div>
+                <div class="flex justify-center">
+                    <div class="bg-secondary-100 text-secondary-200">Load More</div>
+                </div>
             </div>
         </main>
     </div>
